@@ -1,0 +1,279 @@
+
+/*BODY*/
+
+body{
+font-family:arial, sans-serif;
+cursor:default;
+margin:0px;
+background-color:#99CDFF;
+}
+
+
+/*CONTENT*/
+
+#contentcontainer{
+top:0px;
+width:1200px;
+margin-left:auto;
+margin-right:auto;
+background-color:#FFFFFF;
+box-shadow: 0px 0px 66px -22px rgba(0,0,0,0.62);
+}
+
+
+/*HEADER*/
+
+header{
+height:60px;
+}
+
+#headernav{
+top:0px;
+position:fixed;
+}
+
+
+/*BREADCRUMBS*/
+
+.breadcrumb{
+list-style-type:none;
+margin:0px;
+margin-top:5px;
+color:#45A2FC;
+padding-bottom:5px;
+}
+
+.breadcrumb li{
+font-size:12px;
+display:inline-block;
+padding-left:10px;
+}
+
+.breadcrumb li a{
+font-weight:normal;
+}
+
+.active{
+font-weight:bold;
+}
+
+.breadcrumb a:link{color:#45A2FC}
+.breadcrumb a:visited{color:#45A2FC}
+.breadcrumb a:hover{text-decoration:underline}
+.breadcrumb a:active{color:#45A2FC}
+
+	
+/*MAIN*/
+
+main{
+padding-top:100px;
+}
+
+main a{
+text-decoration:none;
+font-weight:bold;
+}
+#leftmain{
+padding-left:50px;
+float:left;
+width:530px;
+text-align:justify;
+}
+#rightmain{
+padding-right:50px;
+float:right;
+width:530px;
+text-align:justify;
+}
+
+#leftmain_K{	
+padding-left:0px;
+width:600px;
+}
+
+
+/*NAV*/
+
+nav{
+font-size:14px;
+color:white;
+height:40px;
+background-color:black;
+}
+
+nav ul{
+padding:0px;
+margin:0px;
+list-style-type:none;
+}
+
+nav ul li{
+display:inline-block;
+cursor:pointer;
+font-weight:bold;
+}
+
+nav ul li a{
+cursor:pointer;
+text-decoration:none;
+padding:0px 44.45px;
+line-height:40px;
+padding-top:12px;
+padding-bottom:12px;
+}
+
+nav a:link{color:#ffffff}
+nav a:visited{color:#ffffff}
+nav a:hover{color:#ffffff}
+nav a:active{color:#ffffff}
+
+nav ul li:hover{
+background:-moz-linear-gradient(bottom,rgba(69,162,252,1),rgba(69,162,252,0));
+}
+
+nav ul li:hover .submenu{
+display:block;
+}
+
+
+/*NAV-SUBMENU*/
+
+nav ul li ul li a{
+padding:10px;
+}
+
+.submenu{
+text-align:center;
+background:-moz-linear-gradient(bottom,rgba(69,162,252,0.8),rgba(69,162,252,1));
+position:absolute;
+display:none;
+box-shadow: 0px -1px 19px 1px rgba(0,0,0,0.75);
+}
+
+#submenu1{
+width:255px;
+}
+
+#submenu2{
+width:243px;
+}
+
+.submenu li{
+padding-top:4px;
+padding-bottom:4px;
+padding-left:15px;
+padding-right:15px;
+}
+
+.submenu li:hover{
+background:none;
+}
+
+.submenu li a:hover{
+text-decoration:underline;
+}
+
+/*FOOTER*/
+
+footer{
+height:50px;
+line-height:50px;
+background-color:black;
+padding-left:30px;
+color:black;
+clear:both;
+}
+
+footer a {
+padding-left:20px;
+color:white;
+text-decoration:none;
+}
+
+footer a:hover{
+color:#99CDFF;
+}
+
+
+/*Bewerbungsunterlagen_PAGE*/
+	
+#image-CV{
+padding-left:70px;
+}
+#image-Anschreiben{
+padding-left:83px;
+}
+
+
+/*KARRIERE_PAGE*/
+
+
+#karrierecontent{
+width:1150px;
+height:763px;
+margin-left:25px;
+background-image:url(Bilder/Karriere1.jpg);
+background-repeat:no-repeat;
+padding-top:15px;
+padding-left:90px;
+}
+
+#karrierecontenteingerueckt{
+padding-left:350px;
+}
+
+/*KONTAKT_PAGE*/
+
+#kontakt{
+padding-top:30px;	
+}
+
+.name{
+padding-top:20px;
+}
+
+
+/*Top10_PAGE*/
+
+.contentA{
+padding-left:50px;
+padding-right:50px;
+}
+
+.contentA p{
+text-align:justify;
+}
+
+
+/*Verhalten beim Vorstellungsgespräch*/
+
+#vid{
+padding-right:50px;
+padding-top:30px;
+}
+
+/*Menuitems mit Submenus*/
+
+#leftmainsubmenu{
+padding-left:50px;
+float:left;
+width:353px;
+text-align:justify;
+}
+.rightmainsubmenu{
+padding-right:50px;
+float:right;
+width:353px;
+text-align:justify;
+}
+#middlemain{
+margin-right:421px;
+text-align:justify;
+margin-left:421px;
+}
+#rsmV{
+margin-top:-371px;
+}
+#rsmB{
+margin-top:-432px;
+}
